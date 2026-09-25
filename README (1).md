@@ -12,8 +12,6 @@ CSV --[EXTRACT]--> ventes_brutes (Mongo) --[TRANSFORM/LOAD via $out]--> ventes_p
 |---|---|
 | `ventes_brutes.csv` | Échantillon initial (25 lignes) — Partie 1 |
 | `ventes_brutes_1000.csv` | Échantillon élargi (~1018 lignes) — Partie 2 |
-| `ventes_brutes` (collection Mongo) | Résultat de l'import brut (Extract) |
-| `ventes_propres` (collection Mongo) | Résultat nettoyé (Transform + Load) |
 
 ## Prérequis
 
